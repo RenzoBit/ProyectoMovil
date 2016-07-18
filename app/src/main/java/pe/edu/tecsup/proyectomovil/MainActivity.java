@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        //nia
         btnIngresar = (Button) findViewById(R.id.btnIngresar);
         btnIngresar.setOnClickListener(this);
         btnRegistrar = (Button) findViewById(R.id.btnRegistrar);
