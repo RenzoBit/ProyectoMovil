@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Proyecto Móvil</string>
+
+    <string name="action_inicio">Inicio</string>
+    <string name="action_direcciones">Direcciones</string>
+    <string name="action_lugares">Lugares de interés</string>
+
+    <string name="text_municipalidad">Municipalidad de Santa Anita</string>
+    <string name="text_seguridad">Seguridad Ciudadana</string>
+    <string name="text_ingresar">Ingresar</string>
+    <string name="text_registrar">Registrar</string>
+    <string name="text_usuario">Usuario</string>
+    <string name="text_tipo">Tipo</string>
+    <string name="text_descripcion">Descripción</string>
+    <string name="text_enviar">Enviar</string>
+    <string name="text_capturar">Capturar foto</string>
+    <string name="text_lugares">Lugares de interés</string>
+</resources>
