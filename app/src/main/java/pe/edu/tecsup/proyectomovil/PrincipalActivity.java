@@ -36,8 +36,6 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Toast;
 
 import com.github.kevinsawicki.http.HttpRequest;
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -49,9 +47,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Type;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -168,7 +164,7 @@ public class PrincipalActivity extends AppCompatActivity implements View.OnClick
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent();
+        Intent intent;
         switch (item.getItemId()) {
             case R.id.action_inicio:
                 intent = new Intent(this, MainActivity.class);

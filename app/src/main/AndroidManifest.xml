@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pe.edu.tecsup.proyectomovil">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="pe.edu.tecsup.proyectomovil">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-
-    <uses-feature android:name="android.hardware.camera"></uses-feature>
+    <uses-feature android:name="android.hardware.camera"/>
 
     <!-- Inicio de Permisos para GCM -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="pe.edu.tecsup.proyectomovil.permission.C2D_MESSAGE" />
-
-    <permission
-        android:name="pe.edu.tecsup.proyectomovil.permission.C2D_MESSAGE"
-        android:protectionLevel="signature" />
+    <permission android:name="pe.edu.tecsup.proyectomovil.permission.C2D_MESSAGE" android:protectionLevel="signature" />
     <!-- Fin de Permisos para GCM -->
-
 
     <!-- Inicio de Permisos para Google Maps -->
     <permission android:name="pe.edu.tecsup.proyectomovil.MAPS_RECEIVE" android:protectionLevel="signature" />
@@ -45,7 +39,6 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-
                 <category android:name="pe.edu.tecsup.proyectomovil" />
             </intent-filter>
         </receiver>
@@ -65,8 +58,7 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyD8z5OiqqidapVZM-OvHdkDcWhn6lrfc8M" />
 
-        <activity android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -1,23 +1,17 @@
 package pe.edu.tecsup.proyectomovil;
 
 import android.content.Intent;
-import android.database.Cursor;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.github.kevinsawicki.http.HttpRequest;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
-import java.util.ArrayList;
 import java.util.Map;
 
 public class NoticiaActivity extends AppCompatActivity {

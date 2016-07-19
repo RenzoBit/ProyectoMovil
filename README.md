@@ -1,4 +1,4 @@
-# ProyectoMovil
+# Proyecto Móvil
 Proyecto de aplicación móvil con Android nativo
 - Envio de notificaciones push con Google Cloud Messaging‎
 - Almacenamiento de Base de datos con SQLite

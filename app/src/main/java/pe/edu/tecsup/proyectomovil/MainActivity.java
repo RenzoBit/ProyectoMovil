@@ -7,7 +7,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.support.v7.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -18,10 +17,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        //nia
         btnIngresar = (Button) findViewById(R.id.btnIngresar);
         btnIngresar.setOnClickListener(this);
         btnRegistrar = (Button) findViewById(R.id.btnRegistrar);
@@ -50,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Intent intent = new Intent();
+        Intent intent;
         switch(item.getItemId()) {
             case R.id.action_inicio:
                 intent = new Intent(this, MainActivity.class);
