@@ -7,6 +7,7 @@ public class DAOExcepcion extends Exception {
 
     private static final long serialVersionUID = 1L;
 
+    //Comentando
     public DAOExcepcion() {
         super();
     }
